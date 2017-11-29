@@ -24,9 +24,7 @@ int main()
 {
 	long int n, wynik;
 	wczytaj(&n);
-//	wynik =  fibo(n);
-//	printf(" %ld wyraz ciagu Fibonacciego wynosi: %ld \n", n, wynik);
-	printf(" %ld wyraz ciagu Fibonacciego wynosi: %ld \n", n, fibo(n));
-
+	wynik =  fibo(n);
+	printf(" %ld wyraz ciagu Fibonacciego wynosi: %ld \n", n, wynik);
 	return 0;
 }
