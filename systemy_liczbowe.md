@@ -7,7 +7,7 @@
 
 System dwojkowy - to system pozycyjny o podstawie "2". Do zapisu liczb używa sie "dwóch" cyfr "0" oraz "1".
 
-Np. zapis dwojkowy (**1001**) = **1***2^3 + **0***2^2 + **0***2^1 + **1**0*2^0
+Np. zapis dwojkowy (**1001**) = **1**\*2^3 + **0**\*2^2 + **0**\*2^1 + **1**\*2^0
 
 ### 2. System osemkowy (oktalny)
 
