@@ -15,12 +15,12 @@ Np. zapis dwojkowy (**1001**) = **1**\*2^3 + **0**\*2^2 + **0**\*2^1 + **1**\*2^
 System osemkowy - to system pozycyjny o podstawie "8". Do zapisu liczb używa sie "osmiu cyfr" cyfr "0","1","2","3","4","5","6","7".
 
 Np. zapis w systemie osemkowym (**30**) = **3**\*8^1 + **0**\*8^0
-|wartosc osemkowa|wartosc dwojkowa|
-|----------------|----------------|
-|0|000|
-|1|000|
-|2|000|
-|3|000|
+| wartosc osemkowa | wartosc dwojkowa |
+| ---------------- | ---------------- |
+| 0 | 000 |
+| 1 | 000 |
+| 2 | 000 |
+| 3 | 000 |
 |4|000|
 |5|000|
 |6|000|
