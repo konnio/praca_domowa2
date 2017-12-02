@@ -1,6 +1,8 @@
-# Notatka dotycząca funkcji **printf** i **scanf**
+# Notatka dotyczaca funkcji **printf** i **scanf**
 
 ## 1. PRINTF
+
+Funkcja `printf()` wypisuje na ekranie łańcuchy danych, czyli napis tak jak puts z tym ,tylko że nie ogranicza się do wyświetlania tekstu. Oprócz tego można wypisać wartości zmienne i stałe, same lub wraz z tekstem poprzez specyfikatory formatowania, dla danego typu zmiennej lub stałej (np. %d – dla typu int).
 
 
 Specyfikator |	Opis
@@ -41,3 +43,18 @@ int main()
 ```
 
 ## 2. SCANF
+
+`Scanf()` służy do wprowadzania wartości z klawiatury różnych typów danych, które użytkownik wprowadza i wczytuje do zmiennej. Scanf() wymaga potwierdzenia enterem wprowadzonej wartości.
+Odczytuje dane ze standardowego strumienia wejściowego (stdin)
+w/g zadanego formatu i zapamiętuje je pod zadanymi adresami pamięci.
+
+int scanf (tekst_sterujący, adres_1, adres_2,  . . .  ) ;
+
+tekst  sterujący → jest  to  stała  łańcuchowa  (w  podwójnych cudzysłowach) zawierająca polecenia jak traktować kolejne dane wczytywane ze strumienia (jakie typy zmiennych są pod adresami adres_1, adres_2, ... ) 
+Kody formatujące (podobne jak dla printf() ): 
+
+
+
+
+
+
