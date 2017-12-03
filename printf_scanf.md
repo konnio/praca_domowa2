@@ -24,7 +24,25 @@ Specyfikator |	Opis
 
 
 
-Przyklad wykorzystania
+Przyklady wykorzystania
+```c
+#include <stdio.h>
+int main( )
+{
+int x = 10;
+long y = 20;
+double s;
+s = x + y;
+printf ( "%s obliczen %d + %ld = %f" , "Wynik" , x , y , s );
+}
+
+Efekt na ekranie --> **Wynik obliczen 10 + 20 = 30.000000"
+```
+
+
+
+
+
 ```c
 #include <stdio.h>
 
@@ -53,16 +71,18 @@ int scanf (tekst_sterujący, adres_1, adres_2,  . . .  ) ;
 tekst  sterujący → jest  to  stała  łańcuchowa  (w  podwójnych cudzysłowach) zawierająca polecenia jak traktować kolejne dane wczytywane ze strumienia (jakie typy zmiennych są pod adresami adres_1, adres_2, ... ) 
 Kody formatujące (podobne jak dla printf() ): 
 
-%c − pojedynczy znak 
-%s − łańcuch znaków 
-%d − liczba dziesiętna ze znakiem 
-   %f lub %e − liczba zmiennoprzecinkowa 
-%u − liczba dziesiętna bez znaku 
-%x − liczba w kodzie szesnastkowym (bez znaku) 
-%o − liczba w kodzie ósemkowym (bez znaku) 
-l − przedrostek stosowany przed: d u x o (long int) 
-l − przedrostek stosowany przed: f e (double) 
-L − przedrostek stosowany przed: f e (long double) 
+Specyfikator |	Opis
+--- | ---
+%c | pojedynczy znak 
+%s | łańcuch znaków 
+%d | liczba dziesiętna ze znakiem 
+%f lub %e | liczba zmiennoprzecinkowa 
+%u | liczba dziesiętna bez znaku 
+%x | liczba w kodzie szesnastkowym (bez znaku) 
+%o | liczba w kodzie ósemkowym (bez znaku) 
+l | przedrostek stosowany przed: d u x o (long int) 
+l |przedrostek stosowany przed: f e (double) 
+L | przedrostek stosowany przed: f e (long double) 
 
 
 
